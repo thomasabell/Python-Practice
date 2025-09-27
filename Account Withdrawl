@@ -1,0 +1,9 @@
+balance = 3200
+withdrawl = float(input("Please enter withdrawl amount: "))
+new_balance = balance - withdrawl
+
+if withdrawl <= balance:
+    print("Transaction successful! Your new balance is: $" + str(new_balance))
+
+else:
+    print("Insuffient Funds")
